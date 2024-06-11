@@ -1,0 +1,50 @@
+.contact1{
+    width:100%;
+    height:90vh;
+    margin-top:0vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#eaedf7;
+}
+.prof11112{
+    height:65vh;
+    width:50%;
+    margin-left:6vh;
+}
+.cht12{
+   
+    height:67vh;
+    width:63%;
+    padding:2vh;
+    display:flex;
+  
+    border-radius:2vh;
+    background-color:white;
+}
+.imgc2{
+    height:100%;
+}
+.cont2{
+    width:100%;
+}
+.formgroupcppp{
+    width:50vh;
+    margin-left:6vh;
+    height:12vh;
+    display:block;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    margin-bottom:2vh;
+}
+.form-controlcpp{
+    background-image: none;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.9;
+    padding: 0.5rem 0.75rem;
+    width: 70%;
+    height:6vh;
+}

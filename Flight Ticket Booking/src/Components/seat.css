@@ -1,0 +1,66 @@
+.seat-button {
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color:green;
+    cursor:pointer;
+    width:10px;
+  }
+  .seat-button:hover{
+    background-color: #fdc620;
+  }
+  .blue{
+    background-color:#eeeeee;
+    border-color:#bfbfbf;
+  }
+  .blue:hover{
+    background-color:#eeeeee;
+  }
+  .green{
+    background-color:#00d4ff;
+  }
+  /* .seat-button {
+    margin-right: 10px;
+    padding: 15px;
+    background-color: rgb(47, 255, 47);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor:pointer
+  }
+  .seat-button:hover{
+    background-color: #049bff;
+  } */
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .pattern-column{
+    width: 50%;
+    margin-left: 5%;
+  
+  }
+  .booknow-comp{
+    background-color:#f2f2f2;
+    padding: 50px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .booknow-cont{
+    text-align: center;
+    width: 40%;
+    background-color: #f1f7fe;
+    border-radius: 20px;
+  }
+ 
+  .passenger-form .login-field{
+    margin-top: 20px;
+  }
+  .confirm{
+    margin-top: 30px;
+  }

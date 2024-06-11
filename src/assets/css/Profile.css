@@ -1,0 +1,45 @@
+.pro1 {
+  height: 110vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pro2 {
+  height: 80%;
+  width: 25%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.top {
+  background-color: #534ca4;
+  height: 20%;
+}
+.user {
+  height: 100%;
+  border-radius: 100%;
+  border-color: white;
+}
+.im {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.content {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+.detail1 {
+  width: 50%;
+  height: 70%;
+}
+.detail2 {
+  width: 50%;
+  height: 70%;
+}
+.det1 {
+  height: 15%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+}

@@ -1,0 +1,37 @@
+.infod{
+    margin-top:6vh;
+    height:40vh;
+    border-color:#d5e0d5;
+    border-radius:1vh;
+    width:80%;
+    margin-left:10%;
+    margin-bottom:8vh;
+   
+}
+.irt{
+    text-align:left;
+}
+.ver{
+    margin-left:0px;
+    color:#13544e;
+    font-size:36px;
+    font-weight: var(--font-weight-heading);
+    font-family: inherit;
+    margin-bottom:3vh;
+}
+.ver1{
+    width:100%;
+    display:flex;
+}
+.ver2{
+    width:25%;
+    text-align:left;
+}
+.hhh{
+    color:#717171;
+}
+.gr{
+    height:0.8vh;
+    width:7vh;
+    background-color:#95df00;
+}

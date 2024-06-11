@@ -1,0 +1,24 @@
+.nvbar{
+    width:1300px;
+    /* background-color:black; */
+   
+}
+.nvbar2{
+  box-shadow:rgba(99,99,99,0.2) 0px 2px 0px 0px;
+}
+.white {
+    font-size:20px;
+    font-weight:500;
+    color:#6f7070;
+  }
+  .book{
+    font-size:20px;
+    font-weight:500;
+    color:#6f7070;
+  }
+  .nv{
+    display:flex;
+  }
+  .nvbar2{
+    display:flex;
+  }

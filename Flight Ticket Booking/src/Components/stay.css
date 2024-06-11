@@ -1,0 +1,71 @@
+.staybox{
+  width: 80%;
+  height:350px;
+  margin: 20px;
+  margin-left:8%;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  background-color: white;
+  text-align:center;
+}
+.box21{
+    width:40%;
+    margin-left:30%;
+    margin-top:25px;
+}
+.re{
+    margin-top:10px;
+    color:black;
+    font-size:40px;
+    font-weight:600;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.box31{
+    width:60%;
+    margin-left:20%;
+    margin-top:4%;
+}
+.he3{
+    color:#6f7070;
+    font-size:25px;
+    font-weight:300;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.input2{
+    margin-top:14px;
+    margin-left:25%;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width:50%;
+    height:60px;
+    background-color:#f2f4f7;
+    dispaly:flex;
+}
+.stayinput {
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 1px;
+    margin-left: 0 auto;
+    border: none;
+    height: 90%;
+    background-color: #f2f4f7;
+    outline: none;
+  }
+input[placeholder="Type your email address"]
+{
+    color:black;
+    font-size:20px;
+    font-weight:250;
+    margin-left:1%;;
+    margin-right:10%;
+}
+.ebutton{
+    height:70%;
+    width:18%;
+    color:white;
+    font-weight:150;
+    background-color:#edbc40;
+}

@@ -1,0 +1,56 @@
+.text{
+    margin-bottom:2vh;
+}
+.parent{
+    height:700px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f8f9fa;
+  }
+  .sign{
+    border-radius:10px;
+      height:520px;
+      width:400px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color:white;
+  }
+  .lo{
+    font-family: 'Poppins', sans-serif;
+  }
+  .login{
+    margin-top:5px;
+    
+    padding-top:5px;
+  }
+  .fo{
+    margin top:5rem;
+    padding-bottom:40px;
+   
+    align-items:center;
+    justify-content: center;
+  }
+  .pass{
+    padding-top:10px;
+    height:30%;
+  }
+  .but{
+    padding-top:20px;
+  }
+  .but1{
+    padding-top:10px;
+    padding-bottom:30px;
+  }
+  .but2{
+    width: 35%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #edbc40;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }

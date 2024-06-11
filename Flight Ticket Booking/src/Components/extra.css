@@ -1,0 +1,24 @@
+.box1{
+    padding: 20px;
+    height:23vh;
+  margin: 0 auto;
+  width:90%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  background-color:#f5f5f5;
+}
+.box2{
+    width:60%;
+    display:flex;
+}
+.one{
+    font-size:20px;
+}
+.two{
+    font-size:15px;
+}
+.sear{
+    height:90px;
+}

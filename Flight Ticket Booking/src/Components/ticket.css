@@ -1,0 +1,111 @@
+.tickettop {
+  padding: 20px;
+  height: 120vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* justify-content: center; */
+}
+.ticketcard {
+  width: 500px;
+  height: 650px;
+  margin-top: 10px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  background-color: white;
+}
+.ticketcard2 {
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+}
+#t2i {
+  font-family: "Ysabeau Office", sans-serif;
+}
+#t21 {
+  color: #009fbd;
+  font-size: 25px;
+  font-weight: 500;
+}
+#t22 {
+  color: #ffad01;
+  font-size: 25px;
+  font-weight: 500;
+}
+.flight-flight1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+  display: flex;
+}
+.flight-comp-dest-child10 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 0px 0px;
+  padding: 10px;
+  min-width: 180px;
+  max-width: 150px;
+}
+.flight-comp-dest-child p,
+h3 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-bottom:20px; */
+}
+.detail1 {
+  margin-top: 30px;
+  display: flex;
+  height: 100px;
+}
+.detail12 {
+  margin-top: 30px;
+  display: flex;
+  height: 100px;
+  border-bottom: 1px dashed black;
+}
+
+.detail2 {
+  justify-content: center;
+  //text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 60px;
+  width: 190px;
+}
+.to {
+  color: #6f7070;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Ysabeau Office", sans-serif;
+  margin-bottom: 10px;
+}
+.to2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Ysabeau Office", sans-serif;
+  margin-bottom: 10px;
+}
+.img23 {
+  height: 200px;
+  align-items: center;
+}
+.u1 {
+  height: 180px;
+  margin-left: 20px;
+}
+.bookt {
+  width: 200px;
+  color: white;
+  background-color: #f02228;
+  margin-bottom: 100px;
+}
+.cancel {
+  margin-bottom: 2x;
+  height: 30px;
+}

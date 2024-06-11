@@ -1,0 +1,111 @@
+.prof {
+  width: 85.5%;
+  margin-left: 30vh;
+  height: 160vh;
+  margin-top: 1vh;
+  /* display:flex; */
+  background-color: #eaedf7;
+  padding: 3vh;
+}
+.ver23a {
+  /* margin-top:6vh; */
+  margin-left: 2vh;
+  color: #170c82;
+  font-size: 5vh;
+  font-weight: var(--font-weight-heading);
+  font-family: inherit;
+  margin-bottom: 2vh;
+}
+.ver23aa {
+  /* margin-top:6vh; */
+  margin-left: 2vh;
+  color: #170c82;
+  font-size: 3vh;
+  font-weight: var(--font-weight-heading);
+  font-family: inherit;
+  margin-bottom: 2vh;
+}
+.ver45a {
+  margin-left: 2vh;
+  color: #2d17ff;
+  font-size: 2vh;
+  font-weight: var(--font-weight-heading);
+  font-family: inherit;
+  margin-bottom: 2vh;
+}
+
+.proform1 {
+  margin-left: 2vh;
+  height: 127vh;
+  width: 93%;
+  /* padding:2vh; */
+  margin-top: 2vh;
+  border-radius: 2vh;
+  background-color: white;
+}
+.proform11 {
+  height: 7vh;
+  width: 97.5%;
+  padding: 2vh;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 0px 0px;
+}
+.prof11 {
+  display: flex;
+  height: 67vh;
+}
+.prof111 {
+  width: 20%;
+}
+.prof112 {
+  width: 40%;
+}
+.prof113 {
+  width: 40%;
+}
+.formgroup {
+  height: 4vh;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+.form-control {
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.9;
+  padding: 0.5rem 0.75rem;
+  width: 70%;
+}
+.form-control:focus {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+.form-controll {
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 4.9;
+  padding: 0.5rem 0.75rem;
+  width: 70%;
+}
+.form-control:focus {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+.text-dark {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-bottom: 1vh;
+  margin-top: 1.5vh;
+  color: #172228 !important;
+  /* font-weight: 500; */
+  display: inline-block;
+}
+.tearea {
+  padding-left: 33vh;
+}

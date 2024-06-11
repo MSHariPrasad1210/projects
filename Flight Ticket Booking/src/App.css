@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c586.149C108.709%2c570.223%2c219.69%2c541.878%2c300.189%2c467.104C375.021%2c397.595%2c389.672%2c289.725%2c423.041%2c193.196C453.101%2c106.238%2c477.261%2c21.76%2c485.808%2c-69.849C496.744%2c-187.059%2c545.689%2c-318.209%2c479.861%2c-415.802C414.12%2c-513.267%2c274.624%2c-518.003%2c161.63%2c-550.461C49.315%2c-582.724%2c-64.029%2c-632.409%2c-177.54%2c-604.644C-293.07%2c-576.385%2c-393.772%2c-497.35%2c-459.834%2c-398.448C-522.164%2c-305.134%2c-504.571%2c-185.456%2c-530.473%2c-76.27C-559.653%2c46.734%2c-653.765%2c161.639%2c-621.711%2c283.926C-588.783%2c409.547%2c-479.387%2c507.426%2c-362.591%2c564.202C-251.44%2c618.234%2c-122.283%2c604.064%2c0%2c586.149' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 851.995C1500.162 844.3820000000001 1561.19 858.6610000000001 1617.547 836.269 1681.915 810.694 1761.016 782.181 1781.911 716.145 1803.089 649.215 1743.103 585.491 1717.595 520.088 1698.146 470.221 1674.732 425.493 1650.031 378.007 1616.885 314.28700000000003 1610.67 227.83999999999997 1547.649 193.382 1484.401 158.8 1405.57 186.89600000000002 1336.173 206.399 1266.112 226.08800000000002 1181.385 241.935 1146.8809999999999 306.01099999999997 1112.095 370.611 1177.628 448.151 1166.908 520.735 1156.1190000000001 593.7860000000001 1072.664 649.188 1085.458 721.914 1098.3519999999999 795.207 1161.157 859.544 1231.021 885.177 1298.606 909.9739999999999 1368.579 861.0319999999999 1440 851.995' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 100vh; */
+}
+.content {
+  margin-left:15%;
+  padding: 20px;
+  /* margin: 0 auto; */
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.login {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-split {
+  padding: 20px;
+  border-radius: 10px;
+  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.inputfield {
+  right: 0;
+  outline: none;
+  width: 60%;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border-bottom: 2px solid #ccc;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-size: large;
+}
+
+.inputfield:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+.line {
+  justify-content: space-between;
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.radio {
+  width: 75%;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  width: 45%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #edbc40;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.register1 {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #edbc40;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #61616144;
+  color: #ffffff;
+}
+
+button:active {
+  background-color: #ffffff00;
+  color: #000;
+  border: 1px solid #616161;
+}
+nav {
+  display: flex;
+  width: 100%;
+}
+
+
+.username {
+  padding: 10px;
+}
+.navbar .logo {
+  margin: 10px 50px;
+  width: 75%;
+  padding: 10px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.navbar {
+  width: 100%;
+  padding: 10px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+}
+.logo-text {
+  margin: 0px;
+  color: white;
+}
+
+.links1 {
+  /* float: right; */
+  width: 90%;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  width: 100%;
+  margin-right:50px;
+}
+
+.homeText {
+  margin: 0px;
+  align-items: start;
+  height:500px;
+}
+
+
+
+.card.home {
+  border: none;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #616161;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #616161;
+}
+
+
+.title {
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.texts {
+  padding: 10px;
+}
+.home1 {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  display: flex;
+}
+.title {
+  width: 50%;
+}
+#ti {
+  font-family: "Ysabeau Office", sans-serif;
+}
+#t1 {
+  color: #009fbd;
+  font-size:30px;
+    font-weight:500;
+}
+#t2 {
+  color: #ffad01;
+  font-size:30px;
+    font-weight:500;
+}
+.search {
+  margin: 12px;
+  margin-top:25px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ecf1f4;
+  display: flex;
+}
+.searchout {
+  display: flex;
+  height: 100px;
+}
+.imgs {
+  margin: 4px;
+  margin-left: 12px;
+  border-radius: 70px;
+}
+input[type="search"] {
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 0px;
+  border: none;
+  height: 30px;
+  background-color: #ecf1f4;
+  outline: none;
+}
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:#ededeb;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height:80%;
+margin-top:100px;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+border-radius:30px;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 18px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#ffad01;
+background-color:#b0aeae;
+border-radius:50px;
+font-weight:500;
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+.content1{
+ background-color:orange;
+ height:300px;
+ margin:50px;
+ margin-left:200px;
+ margin-right:200px;
+ border-radius:10px;
+}
+.content2{
+ 
+}
+

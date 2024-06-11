@@ -1,0 +1,35 @@
+#homeword{
+    color: #009fbd;
+}
+h3{
+    font-size:20px;
+    font-weight:400;
+    color:#6f7070;
+}
+.link-button {
+    margin-top:0%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .homet1{
+    margin-bottom:5%;
+  }
+  .homeText h1 {
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size: 3rem;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+.bookh{
+    width:50%;
+    color:white;
+    background-color:#edbc40;
+  }
+  .welcome{
+    font-size:35px;
+  }
+/* .card-split{
+    background-color:#d5e0f1;
+} */

@@ -1,0 +1,129 @@
+.userdash1{
+    width:84.5%;
+    margin-left:32.5vh;
+    height:160vh;
+    margin-top:-2vh;
+    background-color:#eaedf7;
+}
+.userdash11{
+    width:100%;
+    height:22vh;
+    display:flex;
+    margin-top:2vh;
+    padding:2vh;
+}
+.userdash111{
+    /* width:30%;
+    heifht:18vh;
+    background-color:white; */
+    width:27%;
+    height:20vh;
+    margin:2vh;
+    padding-left:2vh;
+    border-radius:2vh;
+    background-color:white;
+}
+.userver45{
+        margin-left:2vh;
+        color:#2d17ff;
+        font-size:2vh;
+        font-weight: var(--font-weight-heading);
+        font-family: inherit;
+        margin-bottom:2vh;
+}
+.userver23{
+    margin-left:2vh;
+    color:#170c82;
+    font-size:4vh;
+    font-weight: var(--font-weight-heading);
+    font-family: inherit;
+    margin-bottom:2vh;
+}
+.udi{
+    width:80%;
+    height:50vh;
+    margin:2vh;
+    margin-left:20vh;
+    padding-left:2vh;
+    border-radius:2vh;
+    padding:1vh;
+    /* display:flex; */
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+}
+.udiapp{
+    width:80%;
+    height:50vh;
+    margin:2vh;
+    margin-left:40vh;
+    padding-left:2vh;
+    border-radius:2vh;
+    padding:1vh;
+    /* display:flex; */
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+}
+
+.tb {
+    border-radius:2vh;
+    width: 101%;
+    margin-top:1vh
+    border-collapse: collapse;
+    margin-left:-1.3vh;
+  }
+  
+  /* Style the table header */
+  th {
+    text-color:#170c82;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style the table rows */
+  tr {
+    border-bottom: 1px solid #ddd;
+    margin-top:1vh;
+    border-radius:2vh;
+  }
+  
+  /* Style the table cells */
+  td {
+    padding: 10px;
+    margin-top:1vh;
+    border-radius:2vh;
+  }
+  
+  /* Highlight alternate rows */
+  tr{
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the table heading */
+  h2 {
+    margin-top: 20px;
+  }
+  .hea{
+    color:#534ca4;
+  }
+  td[status="Pending"] {
+    color: #ffcc00; /* Yellow for Pending */
+  }
+  
+  td[status="Approved"] {
+    color: #00cc00; /* Green for Approved */
+  }
+  
+  td[status="Rejected"] {
+    color: #cc0000; /* Red for Rejected */
+  }
+  .appu{
+    margin-left:2vh;
+    color:#343434;
+    font-size:4vh;
+    font-weight: var(--font-weight-heading);
+    font-family: inherit;
+    margin-bottom:2vh;
+  }

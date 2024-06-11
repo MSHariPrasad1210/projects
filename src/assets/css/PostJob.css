@@ -1,0 +1,134 @@
+.formgroupcp {
+  margin-left: 6vh;
+  height: 12vh;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+.formgroupcd {
+  margin-left: 4vh;
+  height: 32vh;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-bottom: 3vh;
+}
+.form-group hr{
+   display:flex;
+}
+.tearea1 {
+  padding-left: 2vh;
+}
+.prof1112 {
+  width: 50%;
+  margin-left: 6vh;
+}
+.prof1113 {
+  width: 50%;
+  margin-left: 6vh;
+}
+..proform1cc {
+  margin-left: 2vh;
+  height: 37vh;
+  width: 93%;
+  /* padding:2vh; */
+  margin-top: 2vh;
+  border-radius: 2vh;
+  padding: 3vh;
+  background-color: white;
+}
+.proform1po {
+  margin-left: 2vh;
+  height: 200vh;
+  width: 93%;
+  /* padding:2vh; */
+  margin-top: 2vh;
+  border-radius: 2vh;
+  background-color: white;
+}
+.prof11joba {
+  display: flex;
+  height: 92vh;
+  background-color: white;
+}
+
+.but2jj {
+  width: 15%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #edbc40;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.profjob {
+  width: 85.5%;
+  margin-left: 30vh;
+  height: 220vh;
+  margin-top: 1vh;
+  /* display:flex; */
+  background-color: #eaedf7;
+  padding: 3vh;
+}
+.gki {
+  display: flex;
+  width: 100%;
+}
+.form-controlw {
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.9;
+  padding: 0.5rem 0.75rem;
+  width: 80%;
+  margin-right: 2vh;
+  margin-left: 4vh;
+}
+.form-controlwe {
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.9;
+  padding: 0.5rem 0.75rem;
+  width: 20%;
+  margin-right: 2vh;
+  margin-left: 4vh;
+}
+.form-groupgh {
+  width: 80%;
+}
+.text-darkh {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-bottom: 1vh;
+  margin-left: 4vh;
+  margin-top: 1.5vh;
+  color: #172228 !important;
+  /* font-weight: 500; */
+  display: inline-block;
+}
+.but2gh {
+  width: 15%;
+  margin-top: 4vh;
+  /* margin: 10px 0; */
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #edbc40;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.form-controlw:focus{
+    border: 1px solid rgba(0,0,0,.15);
+    outline:none;
+}
